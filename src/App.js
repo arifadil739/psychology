@@ -77,7 +77,7 @@ function App() {
   return (
     <div className="App bg-light">
       <nav className="navbar navbar-light bg-black  ">
-        <span style={{ color: "white" }} className="navbar-brand mb-0 h1 ml-5 ">Survey on "Preferred Social Media Application"</span>
+        <span style={{ color: "white" }} className="navbar-brand mb-0 h1">Survey on "Preferred Social Media Application"</span>
       </nav>
       <h4 className='heading'>
         Survey Results:
@@ -123,7 +123,6 @@ function App() {
         <h4 className='heading'>Implementations based on Survey</h4>
         <div className='sec-2'>
           <div className='left-sec'>
-
             Users express a preference for a gaming feature on Instagram, alike to what Facebook offers. This indicates a growing demand for interactive and entertainment-focused functionalities within the Instagram platform. The desire for gaming features underscores the importance users place on diversified and engaging content, aligning with the evolving landscape of social media preferences.
           </div>
           <img src={games} />
